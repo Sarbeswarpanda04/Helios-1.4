@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        width: 400px;
+        padding: 16px;
+        border: 1px solid black;
+    }
+    input {
+        width: 60%;
+        padding: 8px;
+        border: 1px solid black;
+    }
+    select {
+        width: 60%;
+        padding: 8px;
+    }
+</style>
 <body>
-    
+    <form action="submit.html">
+
+        <h4>settings</h4>
+
+        <label for="name">Full name</label> <br>
+        <input type="text" id="name"> <br> <br>
+
+        <label for="email">Email addres</label> <br>
+        <input type="email" id="email"> <br> <br>
+
+        <label for="number">Phone number</label> <br>
+        <input type="number" id="number"> <br> <br>
+
+        <div style="display: flex; flex-direction: row; gap: 16px;">
+            <div>
+                <label for="plan">Plan</label>
+                <br>
+                <input type="text" id="plan">
+            </div>
+            <div>
+                <label for="billing-format">Billing Format</label>
+                <br>
+                <select id="billing-format">
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+        </div>
+
+
+
+        <br> <br>
+        <label for="street-address">Street Address</label> <br>
+        <input type="text" id="street-address"> <br> <br>
+
+        <div style="display: flex; flex-direction: row; gap: 16px;">
+            <div>
+                <label for="city">City</label>
+                <br>
+                <input type="text" id="city">
+            </div>
+            <div>
+                <label for="provience">Provience</label>
+                <br>
+                <select id="provience">
+                    <option value="odisha">Odisha</option>
+                    <option value="delhi">Delhi</option>
+                </select>
+            </div>
+        </div>
+
+        <br> <br>
+        <div style="display: flex; flex-direction: row; gap: 16px;">
+            <div>
+                <label for="zip-code">Zip Code</label> <br>
+                <input type="number" id="zip-code"> <br> <br>
+            </div>
+
+            <div>
+                <label for="country">Country</label> <br>
+                <select id="country">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 16px; margin-top: 16px;">
+            <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password">
+            </div>
+            <div>
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="password"> <br>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
+
 </html>
