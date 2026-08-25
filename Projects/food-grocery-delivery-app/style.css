@@ -77,16 +77,11 @@ nav {
 .hero-container {
     width: 100%;
     height: 90vh;
-
     position: relative;
     display: flex;
-
     padding: 70px 65px 0;
-
     box-sizing: border-box;
-
     background: #ffffff;
-
     overflow: hidden;
 }
 
@@ -125,45 +120,35 @@ nav {
 
 .welcome-text {
     color: #277e1a;
-
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-weight: 700;
-
     margin-bottom: 12px;
 }
 
 
 .main-heading {
     margin: 0 0 25px;
-
     color: #000000;
-
     font-family: Lato, sans-serif;
     font-size: 48px;
     font-weight: 700;
-
     line-height: 1.17;
 }
 
 
 .description {
     max-width: 475px;
-
     margin: 0 0 35px;
-
     color: #666666;
-
     font-family: Lato, sans-serif;
     font-size: 15px;
-
     line-height: 1.65;
 }
 
 .cta-group {
     display: flex;
     gap: 22px;
-
     margin-bottom: 43px;
 }
 
@@ -171,56 +156,43 @@ nav {
 .btn {
     width: 202px;
     height: 57px;
-
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 30px;
-
     font-family: Lato, sans-serif;
     font-size: 16px;
     font-weight: 600;
-
     text-decoration: none;
-
     box-sizing: border-box;
 }
 
 
 .btn-primary {
     background: #277e1a;
-
     color: white;
-
     border: 1px solid #277e1a;
 }
 
 
 .btn-secondary {
     background: white;
-
     color: #277e1a;
-
     border: 1px solid #277e1a;
 }
 
 
 .metrics-group {
     display: flex;
-
     gap: 72px;
 }
 
 
 .metric-item h3 {
     margin: 0 0 4px;
-
     color: #277e1a;
-
     font-size: 48px;
     font-weight: 700;
-
     line-height: 1;
 }
 
@@ -236,10 +208,8 @@ nav {
 
 .hero-graphic {
     width: 48%;
-
     position: relative;
     z-index: 4;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -249,11 +219,8 @@ nav {
 .hero-graphic img {
     width: 600px;
     max-width: none;
-
     height: auto;
-
     position: absolute;
-
     top: 55px;
     right: -65px;
 }
@@ -275,10 +242,8 @@ nav {
     width: 90%;
     max-width: 1100px;
     margin: 40px auto;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
     gap: 50px 15px;
 }
 
@@ -316,7 +281,6 @@ nav {
 .food-card img {
     width: 100%;
     height: 285px;
-
     display: block;
     object-fit: cover;
 }
@@ -324,23 +288,18 @@ nav {
 
 .food-card h2 {
     margin: 12px 0;
-
     font-family: Lato, sans-serif;
     font-size: 27px;
     font-weight: 500;
-
     color: #111;
 }
 
 
 .food-card p {
     margin: 0;
-
     max-width: 500px;
-
     font-family: Lato, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-
     color: #666;
 }
