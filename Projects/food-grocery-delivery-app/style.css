@@ -303,3 +303,55 @@ nav {
     line-height: 1.5;
     color: #666;
 }
+
+
+
+.section-p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: 5%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.feature {
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 50px 15px;
+}
+.feature-card{
+    width: 30%;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.feature-card img{
+    width: 264px;
+    height: 245px;
+}
+.feature-card h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    color: #2D8014;
+    letter-spacing: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+}
+.feature-card p{
+    padding: 5px auto;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 5%;
+}
