@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -24,7 +24,6 @@ nav {
     padding: 0 35px 0 70px;
 }
 
-/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -36,7 +35,6 @@ nav {
     object-fit: contain;
 }
 
-/* Navigation Menu */
 .menu ul {
     display: flex;
     align-items: center;
@@ -52,7 +50,6 @@ nav {
     cursor: pointer;
 }
 
-/* Login Button */
 .login-btn {
     width: 170px;
     height: 55px;
@@ -286,37 +283,31 @@ nav {
 }
 
 
-/* First image = 2 columns */
 .food-card:nth-child(1) {
     grid-column: span 2;
 }
 
 
-/* Second image = 1 column */
 .food-card:nth-child(2) {
     grid-column: span 1;
 }
 
 
-/* Third image = 1 column */
 .food-card:nth-child(3) {
     grid-column: span 1;
 }
 
 
-/* Fourth image = 1 column */
 .food-card:nth-child(4) {
     grid-column: span 1;
 }
 
 
-/* Fifth image = 1 column */
 .food-card:nth-child(5) {
     grid-column: span 1;
 }
 
 
-/* Last image = 2 columns */
 .food-card:nth-child(6) {
     grid-column: span 2;
 }
