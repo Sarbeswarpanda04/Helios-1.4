@@ -200,7 +200,7 @@ body {
     padding: 0;
 }
 
-.work-together .left > img {
+.work-together .left>img {
     width: 90%;
     height: auto;
 
@@ -303,12 +303,15 @@ body {
     font-size: 9px;
 }
 
-.extension{
+.extension {
     background-color: #043873;
 }
-.extension h1, .extension p {
+
+.extension h1,
+.extension p {
     color: white;
 }
+
 .extension .left .text-bg {
     position: absolute;
 
@@ -324,7 +327,7 @@ body {
 }
 
 .customize .right .text-bg {
-     position: absolute;
+    position: absolute;
 
     width: 420px;
     height: auto;
@@ -342,17 +345,19 @@ body {
     padding: 11.5%;
     background-color: white;
 }
-.subscription h1{
+
+.subscription h1 {
     text-align: center;
     font-weight: 700;
     font-size: 72px;
     z-index: 0;
 }
-.subscription p{
+
+.subscription p {
     text-align: center;
 }
 
-.subscription .text-bg{
+.subscription .text-bg {
     position: absolute;
 
     width: 420px;
@@ -366,18 +371,159 @@ body {
     pointer-events: none;
 }
 
-.subscription-container{
+.subscription-container {
     padding-top: 20px;
     display: flex;
-        gap: 20px;
-        /* width: 1481px; */
-        height: 761px;
-        align-items: center;
-        justify-content: space-between;
+    gap: 20px;
+    /* width: 1481px; */
+    height: 761px;
+    align-items: center;
+    justify-content: space-between;
 
 }
-.free,.personal,.organization{
+
+.free,
+.personal,
+.organization {
     width: 30%;
     height: 634px;
-    border: 2px solid gold;
+    border: 1px solid #ffe492;
+    border-radius: 10px;
+}
+
+.free {
+    padding: 48px 48px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: #ffffff;
+
+
+}
+
+.free h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.free h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: #212529;
+    margin-bottom: 25px;
+}
+
+
+.free p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+
+.free ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.free li {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: #212529;
+}
+
+.free li i {
+    flex-shrink: 0;
+
+    margin-top: 2px;
+
+    font-size: 22px;
+
+    color: #212529;
+}
+
+
+.free li span {
+    display: block;
+}
+
+.get-started {
+    margin-top: 20px;
+}
+
+.get-started button {
+    width: 184px;
+    height: 56px;
+    background-color: #ffffff;
+    border: 1px solid #ffe492;
+    border-radius: 8px;
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.personal {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    cursor: pointer;
+}
+
+
+.personal:hover {
+    background-color: #043873;
+
+    color: #ffffff;
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    height: 700px;
+}
+
+
+.personal:hover h4,
+.personal:hover p,
+.personal:hover li,
+.personal:hover li span {
+    color: #ffffff;
+}
+
+.personal:hover h2{
+    color: #ffe492;
+}
+/* Check icons */
+
+.personal:hover li i {
+    color: #ffe492;
+}
+
+
+/* Button */
+
+.personal:hover .get-started button {
+    background-color: #4f9cf9;
+
+    border-color: #4f9cf9;
+
+    color: #ffffff;
 }
