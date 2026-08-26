@@ -605,7 +605,8 @@ nav {
 .customer-profile-pic {
     width: 90px;
     height: 90px;
-    border-radius: 200px;
+    border-radius: 50px;
+    border: 5px solid green;
 }
 
 .customer-name {
