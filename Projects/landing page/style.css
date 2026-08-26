@@ -98,7 +98,7 @@ body {
     font-size: 10px;
 }
 
-.hero{
+.hero {
     display: flex;
     height: 90vh;
     background-color: #043873;
@@ -106,36 +106,199 @@ body {
     width: 100%;
     padding: 11.5%;
 }
-.left{
+
+.left {
     display: flex;
     flex-direction: column;
     width: 656px;
-height: 361px;
-gap: 60px;
-opacity: 1;
+    height: 361px;
+    gap: 60px;
+    opacity: 1;
+    padding-right: 5px;
 
 }
-.left h1{
-font-weight: 700;
-font-style: Bold;
-font-size: 64px;
-line-height: 100%;
-letter-spacing: -2%;
-color: #FFFFFF;
+
+.left h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: #FFFFFF;
 }
-.left p{
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-line-height: 30px;
-letter-spacing: -2%;
-color: white;
+
+.left p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -2%;
+    color: white;
 }
-.right{
+
+.right {
     width: 50%;
     height: 100%
 }
-.right img{
+
+.right img {
     width: 100%;
     height: 100%;
+    z-index: 4;
+}
+
+.project-management {
+    background-color: white;
+    color: black;
+    background-image: url(assets/BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.project-management h1,
+.project-management p {
+    color: black;
+    z-index: 2;
+
+}
+
+.left .text-bg {
+    width: 678.737656478053px;
+    height: 65.54899555575165px;
+    angle: 0.14 deg;
+    opacity: 1;
+    margin-top: -110px;
+    z-index: 1;
+
+}
+
+
+.work-together {
+    width: 100%;
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #ffffff;
+
+    /* padding: 70px 8%; */
+    padding: 11.5%;
+}
+
+
+/* LEFT SIDE */
+
+.work-together .left {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+}
+
+.work-together .left > img {
+    width: 90%;
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* RIGHT SIDE */
+
+.work-together .right {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 60px;
+}
+
+
+/* HEADING */
+
+.work-together .right h1 {
+    position: relative;
+
+    color: #212529;
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+
+    z-index: 2;
+}
+
+
+/* YELLOW UNDERLINE */
+
+.work-together .right .text-bg {
+    position: absolute;
+
+    width: 290px;
+    height: auto;
+
+    margin-top: -115px;
+    margin-left: 130px;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+
+/* PARAGRAPH */
+
+.work-together .right p {
+    color: #212529;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    max-width: 520px;
+
+    margin-bottom: 35px;
+
+    z-index: 2;
+}
+
+
+/* BUTTON */
+
+.work-together .right .try-whitespace {
+    width: 119px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: #4f9cf9;
+
+    color: white;
+
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.work-together .right .try-whitespace i {
+    font-size: 9px;
 }
