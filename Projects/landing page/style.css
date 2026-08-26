@@ -302,3 +302,82 @@ body {
 .work-together .right .try-whitespace i {
     font-size: 9px;
 }
+
+.extension{
+    background-color: #043873;
+}
+.extension h1, .extension p {
+    color: white;
+}
+.extension .left .text-bg {
+    position: absolute;
+
+    width: 350px;
+    height: auto;
+
+    margin-top: 35px;
+    margin-left: 200px;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+.customize .right .text-bg {
+     position: absolute;
+
+    width: 420px;
+    height: auto;
+
+    margin-top: -85px;
+    margin-left: 10px;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+.subscription {
+    width: 100%;
+    padding: 11.5%;
+    background-color: white;
+}
+.subscription h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    z-index: 0;
+}
+.subscription p{
+    text-align: center;
+}
+
+.subscription .text-bg{
+    position: absolute;
+
+    width: 420px;
+    height: auto;
+
+    margin-top: -45px;
+    margin-left: 580px;
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+.subscription-container{
+    padding-top: 20px;
+    display: flex;
+        gap: 20px;
+        /* width: 1481px; */
+        height: 761px;
+        align-items: center;
+        justify-content: space-between;
+
+}
+.free,.personal,.organization{
+    width: 30%;
+    height: 634px;
+    border: 2px solid gold;
+}
