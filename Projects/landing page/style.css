@@ -511,14 +511,12 @@ body {
 .personal:hover h2{
     color: #ffe492;
 }
-/* Check icons */
+
 
 .personal:hover li i {
     color: #ffe492;
 }
 
-
-/* Button */
 
 .personal:hover .get-started button {
     background-color: #4f9cf9;
